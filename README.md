@@ -11,11 +11,11 @@ Entregas dos exercícios
 ## Lista 1
 0. Leitura OBRIGATÓRIA para começar:
 
-    https://learnopengl.com/#!Getting-started/Hello-Triangle
+    https://learnopengl.com/#!Getting-started/Hello-Triangle - Concluído
 
-    https://learnopengl.com/#!Getting-started/Shaders
+    https://learnopengl.com/#!Getting-started/Shaders - Concluído
 
-    http://antongerdelan.net/opengl/hellotriangle.html
+    http://antongerdelan.net/opengl/hellotriangle.html - Concluído
 
     Sugere-se ainda a leitura:
 
@@ -26,40 +26,40 @@ ebscohost)
 Geração de Imagens
 
 1. O que é a GLSL? Quais os dois tipos de shaders são obrigatórios no pipeline programável
-da versão atual que trabalhamos em aula e o que eles processam?
+da versão atual que trabalhamos em aula e o que eles processam? - Concluído
 
-2. O que são primitivas gráficas? Como fazemos o armazenamento dos vértices na OpenGL?
+2. O que são primitivas gráficas? Como fazemos o armazenamento dos vértices na OpenGL? - Concluído
 
 3. Explique o que é VBO, VAO e EBO, e como se relacionam (se achar mais fácil, pode fazer
-um gráfico representando a relação entre eles).
+um gráfico representando a relação entre eles). - Concluído
 
 4. Analise o código fonte do projeto Hello Triangle. Localize e relacione os conceitos de
-shaders, VBOs e VAO apresentados até então. Não precisa entregar nada neste exercício.
+shaders, VBOs e VAO apresentados até então. Não precisa entregar nada neste exercício. - Concluído
 
 5. Faça o desenho de 2 triângulos na tela. Desenhe eles:
 
-    a. Apenas com o polígono preenchido
+    a. Apenas com o polígono preenchido - Concluído
 
-    b. Apenas com contorno
+    b. Apenas com contorno - Concluído
 
-    c. Apenas como pontos
+    c. Apenas como pontos - Concluído
 
-    d. Com as 3 formas de desenho juntas
+    d. Com as 3 formas de desenho juntas - Concluído
 
-    i. Atualize o shader para receber uma cor de contorno
+    i. Atualize o shader para receber uma cor de contorno - Concluído
 
 6. Faça o desenho de um círculo na tela, utilizando a equação paramétrica do círculo para
 gerar os vértices. Depois disso:
 
-    a) Desenhe um octágono
+    a) Desenhe um octágono - Concluído
 
-    b) Desenhe um pentágono
+    b) Desenhe um pentágono - Concluído
 
-    c) Desenhe um pac-man!
+    c) Desenhe um pac-man! - Concluído
 
-    d) Desenhe uma fatia de pizza
+    d) Desenhe uma fatia de pizza - Concluído
 
-    e) DESAFIO: desenhe uma “estrela”
+    e) DESAFIO: desenhe uma “estrela” - Concluído
 
 7. Desenhe uma espiral, assim:
 
@@ -69,9 +69,9 @@ gerar os vértices. Depois disso:
 respectivamente com as cores vermelho, verde e azul.
 
     a. Descreva uma possível configuração dos buffers (VBO, VAO e EBO) para
-representá-lo.
+representá-lo. - Concluído
 
-    b. Como estes atributos seriam identificados no vertex shader?
+    b. Como estes atributos seriam identificados no vertex shader? - Concluído
 
 ![Of - Google Chrome 04_05_2024 01_25_05](https://github.com/Shokinho/Fundamentos-da-Computacao-Grafica/assets/99108215/3ada3120-8820-4a87-8260-f01de15420df)
 
@@ -80,9 +80,9 @@ representá-lo.
 9. Faça um desenho em um papel quadriculado (pode ser no computador mesmo) e
 reproduza-o utilizando primitivas em OpenGL. Neste exercício você poderá criar mais de um
 VAO e fazer mais de uma chamada de desenho para poder utilizar primitivas diferentes, se
-necessário.
+necessário. - Concluído
 
 ![Of - Google Chrome 04_05_2024 01_25_16](https://github.com/Shokinho/Fundamentos-da-Computacao-Grafica/assets/99108215/23f79699-c1ed-4da9-a908-69e4c6e7b6d5)
 
 11. Implemente (pode pegar do tutorial) uma classe para tratar os shaders a partir de
-arquivos.
+arquivos. - Concluído

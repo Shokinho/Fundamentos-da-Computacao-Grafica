@@ -19,7 +19,7 @@
 
     d. Linha 121, linha 127, linha 157, linha 162, linha 166, linha 168 e 169, linha 176 e 177 e linha 253
 
-    i. 
+    i. Presente na letra d.
 
 6. Linha 105, linha 144, linha 146, linha 148 e 149, linha 154 e 155, linha 231, linha 277 e linha 281 e 282.
 
@@ -48,3 +48,6 @@
 
 11. Começo do HelloTriangle - Projection.
 
+![87582a53f408f2be610a1a6fc52303a88a48b7a1_hq](https://github.com/Shokinho/Fundamentos-da-Computacao-Grafica/assets/99108215/ba508533-cdd1-4391-9ff2-ae817f23b00b)
+
+<sup>Fim da lista 1</sup>

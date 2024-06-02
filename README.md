@@ -84,5 +84,33 @@ necessário. - Concluído
 
 ![Of - Google Chrome 04_05_2024 01_25_16](https://github.com/Shokinho/Fundamentos-da-Computacao-Grafica/assets/99108215/23f79699-c1ed-4da9-a908-69e4c6e7b6d5)
 
-11. Implemente (pode pegar do tutorial) uma classe para tratar os shaders a partir de
+10. Implemente (pode pegar do tutorial) uma classe para tratar os shaders a partir de
 arquivos. - Concluído
+
+## Lista 2
+0. Leitura OBRIGATÓRIA para começar:
+
+    • https://learnopengl.com/#!Getting-started/Transformations - Concluído
+
+    • https://learnopengl.com/#!Getting-started/Coordinate-Systems - Concluído
+   
+    • https://learnopengl.com/In-Practice/2D-Game/Rendering-Sprites (primeira
+parte que fala da projeção ortográfica (explica o exercício 2) - Concluído
+
+1. Modifique a janela do mundo (window/ortho) para os limites: xmin=-10, xmax=10,
+ymin=-10, ymax=10. - Concluído
+
+2. Agora modifique para: xmin=0, xmax=800, ymin=600, ymax=0. - Concluído
+
+   
+3. Utilizando a câmera 2D do exercício anterior, desenhe algo na tela. O que acontece
+quando posicionamos os objetos? Por que é útil essa configuração? - Concluído
+
+4. Modifique o viewport para desenhar a cena apenas no seguinte quadrante da janela
+da aplicação: - Concluído
+
+![Of - Google Chrome 01_06_2024 22_26_58](https://github.com/Shokinho/Fundamentos-da-Computacao-Grafica/assets/99108215/53e9f297-6103-429b-a8ce-20a3a738e474)
+
+5. Agora, desenhe a mesma cena nos 4 quadrantes. - Concluído
+
+![Of - Google Chrome 01_06_2024 22_27_19](https://github.com/Shokinho/Fundamentos-da-Computacao-Grafica/assets/99108215/32766ee1-4e47-45ed-9fa5-8e0c9e90e3a7)

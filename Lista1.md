@@ -46,7 +46,7 @@
 ![trabalho psd @ 100% (Camada 1, RGB_8) _ 04_05_2024 03_04_58](https://github.com/Shokinho/Fundamentos-da-Computacao-Grafica/assets/99108215/59f0ef77-54f6-4be4-b130-29525805f736)
 <sup>Desenho da geometria feito a mão no computador</sup>
 
-11. Começo do HelloTriangle - Projection.
+10. Começo do HelloTriangle - Projection.
 
 ![87582a53f408f2be610a1a6fc52303a88a48b7a1_hq](https://github.com/Shokinho/Fundamentos-da-Computacao-Grafica/assets/99108215/ba508533-cdd1-4391-9ff2-ae817f23b00b)
 

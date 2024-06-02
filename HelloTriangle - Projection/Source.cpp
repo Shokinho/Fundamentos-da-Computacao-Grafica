@@ -80,14 +80,7 @@ int main()
 	// Definindo as dimensões da viewport com as mesmas dimensões da janela da aplicação
 	int width, height;
 	glfwGetFramebufferSize(window, &width, &height);
-	//glViewport(0, 0, width, height);
-	glViewport(600, 450, width, height);
-	glViewport(0, 300, width, height);
-	//glViewport(200, 450, width, height);
-	//glViewport(200, 150, width, height);
-	//glViewport(600, 150, width, height);
-	
-
+	glViewport(0, 0, width, height);
 
 	// Compilando e buildando o programa de shader
 
@@ -96,7 +89,7 @@ int main()
 	// Gerando um buffer simples, com a geometria de um triângulo
 	//Exercício 8
 	//GLuint VAO = exercicio8();
-	//Exercício 8
+	//Exercício 3, 4 e 5
 	GLuint VAO = triangulo();
 
     //Habilita o shader que sera usado (glUseProgram)
@@ -104,12 +97,17 @@ int main()
 
     //Matriz de projeção (paralela ortográfica)
 	// Exercício 1 da Lista 2
-	//glm::mat4 projection = glm::ortho(-10.0, 10.0, -10.0, 10.0, -1.0, 1.0);
+	//glm::mat4 projection = glm::ortho(-1.0, 1.0, -1.0, 1.0, -1.0, 1.0);
 
 	// Exercício 2 da Lista 2
-	glm::mat4 projection = glm::ortho(0.0, 800.0, 0.0, 600.0, -1.0, 1.0);
+	glm::mat4 projection = glm::ortho(0.0, 800.0, 600.0, 0.0, -1.0, 1.0);
 	//Enviando para o shader via variável do tipo uniform (glUniform....)
 	shader.setMat4("projection",glm::value_ptr(projection));
+
+	// Exercício 4 da Lista 2
+	//glm::mat4 projection = glm::ortho(0.0, 800.0, 0.0, 600.0, -1.0, 1.0);
+	//Enviando para o shader via variável do tipo uniform (glUniform....)
+	//shader.setMat4("projection",glm::value_ptr(projection));
 
 	// Loop da aplicação - "game loop"
 	while (!glfwWindowShouldClose(window))
@@ -126,16 +124,41 @@ int main()
 
 		glBindVertexArray(VAO); //Conectando ao buffer de geometria
 
+        //Conjunto do exercício 5
+		//glViewport(0, 300, width, height);
+	    //Enviando para o shader via variável do tipo uniform (glUniform....)
+	    //shader.setMat4("projection",glm::value_ptr(projection));
+
 		// Chamada de desenho - drawcall
 		// Poligono Preenchido - GL_TRIANGLES
-		glDrawArrays(GL_TRIANGLES, 0, 6); //Exercício 5 (letra a)
+		//glDrawArrays(GL_TRIANGLES, 0, 6);//Exercício 3
 
-        // Contorno do polígono - GL_LINE_LOOP
-		//glDrawArrays(GL_LINE_LOOP, 0, 3); //Exercício 5 (letra b e d)
-		//glDrawArrays(GL_LINE_LOOP, 3, 3); //Exercício 5 (letra b e d)
+        //Conjunto do exercício 4 e 5
+		//glViewport(400, 300, width, height);
+	    //Enviando para o shader via variável do tipo uniform (glUniform....)
+	    //shader.setMat4("projection",glm::value_ptr(projection));
 
-        // Desenho dos pontos - GL_POINTS
-        //glDrawArrays(GL_POINTS, 0, 6); //Exercício 5 (letra c e d)
+		// Chamada de desenho - drawcall
+		// Poligono Preenchido - GL_TRIANGLES
+		glDrawArrays(GL_TRIANGLES, 0, 6);
+
+        //Conjunto do exercício 5
+		//glViewport(0, 0, width, height);
+	    //Enviando para o shader via variável do tipo uniform (glUniform....)
+	    //shader.setMat4("projection",glm::value_ptr(projection));
+
+		// Chamada de desenho - drawcall
+		// Poligono Preenchido - GL_TRIANGLES
+		//glDrawArrays(GL_TRIANGLES, 0, 6);
+
+        //Conjunto do exercício 5
+		//glViewport(400, 0, width, height);
+	    //Enviando para o shader via variável do tipo uniform (glUniform....)
+	    //shader.setMat4("projection",glm::value_ptr(projection));
+
+		// Chamada de desenho - drawcall
+		// Poligono Preenchido - GL_TRIANGLES
+		//glDrawArrays(GL_TRIANGLES, 0, 6);
 
 		glBindVertexArray(0); //Desconectando o buffer de geometria
 

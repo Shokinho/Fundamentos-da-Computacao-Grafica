@@ -114,3 +114,25 @@ da aplicação: - Concluído
 5. Agora, desenhe a mesma cena nos 4 quadrantes. - Concluído
 
 ![Of - Google Chrome 01_06_2024 22_27_19](https://github.com/Shokinho/Fundamentos-da-Computacao-Grafica/assets/99108215/32766ee1-4e47-45ed-9fa5-8e0c9e90e3a7)
+
+## Lista 3
+0. Leitura OBRIGATÓRIA para começar:
+
+    • https://learnopengl.com/#!Getting-started/Transformations - Concluído
+
+1. Desenhe uma mesma geometria 3 vezes na tela, aplicando transformações
+diferentes (mesmo VAO, matrizes de transformações diferentes, 3 chamadas de
+desenho). - Concluído
+
+2. Crie uma cena composta de quadrados coloridos dispostos em grid, como o exemplo
+abaixo: - Concluído
+
+![Of - Google Chrome 10_06_2024 03_34_46](https://github.com/Shokinho/Fundamentos-da-Computacao-Grafica/assets/99108215/c28bbbc6-1ee4-4dfe-86a5-52858ae1a39b)
+
+3. Altere a posição de uma geometria (triângulo ou retângulo) nas 4 direções (cima,
+baixo, esquerda e direita) utilizando comandos de teclado para o controle (WASD ou
+setas). - Concluído
+
+ (Desafio-extra) “Piskel”: implemente um editor de pixel art simples:
+
+![Of - Google Chrome 10_06_2024 03_34_57](https://github.com/Shokinho/Fundamentos-da-Computacao-Grafica/assets/99108215/52a92626-6d86-4070-8a6f-9b0bcfb6da86)

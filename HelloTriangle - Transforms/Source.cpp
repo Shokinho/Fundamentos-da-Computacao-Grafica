@@ -100,26 +100,26 @@ int main()
 
 	//Criação de um objeto Sprite
 	Sprite sprite, sprite2, sprite3, background, ground, sprite4, quadradinho, quadrado;
-    //sprite.inicializar(glm::vec3(400.0,300.0,0.0), glm::vec3(200.0,200.0,1.0),0.0,glm::vec3(0.2, 0.0, 0.0));
-	//sprite.setShader(&shader);
+    sprite.inicializar(glm::vec3(400.0,300.0,0.0), glm::vec3(200.0,200.0,1.0),0.0,glm::vec3(0.2, 0.0, 0.0));
+	sprite.setShader(&shader);
 
-	//sprite2.inicializar(glm::vec3(200.0,300.0,0.0), glm::vec3(100.0,50.0,1.0));
-	//sprite2.setShader(&shader);
+	sprite2.inicializar(glm::vec3(200.0,300.0,0.0), glm::vec3(100.0,50.0,1.0));
+	sprite2.setShader(&shader);
 
-	//sprite3.inicializar(glm::vec3(600.0,300.0,0.0), glm::vec3(50.0,100.0,1.0),0.0,glm::vec3(0.0, 0.0, 0.2));
-	//sprite3.setShader(&shader);
+	sprite3.inicializar(glm::vec3(600.0,300.0,0.0), glm::vec3(50.0,100.0,1.0),0.0,glm::vec3(0.0, 0.0, 0.2));
+	sprite3.setShader(&shader);
 
-	//background.inicializar(glm::vec3(400.0,300.0,0.0), glm::vec3(800.0,600.0,1.0),0.0,glm::vec3(0.8, 0.0, 0.5));
-	//background.setShader(&shader);
+	background.inicializar(glm::vec3(400.0,300.0,0.0), glm::vec3(800.0,600.0,1.0),0.0,glm::vec3(0.8, 0.0, 0.5));
+	background.setShader(&shader);
 
-	//ground.inicializar(glm::vec3(400.0,100.0,0.0), glm::vec3(800.0,200.0,1.0),0.0,glm::vec3(0.8, 0.5, 0.0));
-	//ground.setShader(&shader);
+	ground.inicializar(glm::vec3(400.0,100.0,0.0), glm::vec3(800.0,200.0,1.0),0.0,glm::vec3(0.8, 0.5, 0.0));
+	ground.setShader(&shader);
 
-	//sprite4.inicializar(glm::vec3(200.0,500.0,0.0), glm::vec3(100.0,100.0,1.0),45.0,glm::vec3(0.8, 0.5, 0.0));
-	//sprite4.setShader(&shader);
+	sprite4.inicializar(glm::vec3(200.0,500.0,0.0), glm::vec3(100.0,100.0,1.0),45.0,glm::vec3(0.8, 0.5, 0.0));
+	sprite4.setShader(&shader);
 
-	quadrado.inicializar(glm::vec3(400,300,0.0), glm::vec3(80.0,80.0,1.0),0.0);
-	quadrado.setShader(&shader);
+	//quadrado.inicializar(glm::vec3(400,300,0.0), glm::vec3(80.0,80.0,1.0),0.0);
+	//quadrado.setShader(&shader);
 
     glm::mat4 projection = glm::ortho(0.0, 800.0, 0.0, 600.0, -1.0, 1.0);
 	//Enviando para o shader via variável do tipo uniform (glUniform....)
@@ -185,14 +185,14 @@ int main()
 		//	linha += 20.0;
 		//}
 
-		quadrado.desenhar();
+		//quadrado.desenhar();
 
-		//background.desenhar();
-		//sprite.desenhar();
-		//sprite2.desenhar();
-		//sprite3.desenhar();
-		//ground.desenhar();
-		//sprite4.desenhar();
+		background.desenhar();
+		sprite.desenhar();
+        sprite2.desenhar();
+		sprite3.desenhar();
+		ground.desenhar();
+		sprite4.desenhar();
 
 		// Troca os buffers da tela
 		glfwSwapBuffers(window);
